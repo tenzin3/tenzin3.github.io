@@ -388,6 +388,10 @@ code {
   padding-left: 18px;
 }
 
+.timeline-content p {
+  margin: 0;
+}
+
 .project-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
