@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Tenzin Tsundue — Machine Learning Engineer and MS Computer Science student at NYU Courant focused on NLP, RAG, LLMs, and Tibetan language technology." />
+  <title>Tenzin Tsundue | Machine Learning Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="noise"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Tenzin Tsundue home">
+      <span class="brand-mark">TT</span>
+      <span class="brand-text">Tenzin Tsundue</span>
+    </a>
+
+    <button class="menu-toggle" aria-label="Open navigation menu" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero section">
+      <div class="hero-copy">
+        <p class="eyebrow">Machine Learning Engineer · NLP · RAG · LLMs</p>
+        <h1>Building AI systems for language, knowledge, and culture.</h1>
+        <p class="hero-text">
+          I’m Tenzin Tsundue, an MS Computer Science student at NYU Courant and former Machine Learning Engineer at Monlam AI. I work on Tibetan NLP, retrieval systems, large language models, datasets, and tools that make language technology more accessible.
+        </p>
+
+        <div class="hero-actions">
+          <a class="button primary" href="#projects">View Projects</a>
+          <a class="button secondary" href="mailto:tt3124@nyu.edu">Email Me</a>
+        </div>
+
+        <div class="social-row" aria-label="Social links">
+          <a href="https://github.com/tenzin3" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+
+      <aside class="hero-card" aria-label="Profile summary">
+        <div class="orb"></div>
+        <div class="terminal-card">
+          <div class="terminal-bar">
+            <span></span><span></span><span></span>
+          </div>
+          <pre><code>focus = [
+  "Tibetan NLP",
+  "RAG + LLMs",
+  "Data pipelines",
+  "Open-source tools"
+]
+
+status = "MS CS @ NYU Courant"</code></pre>
+        </div>
+      </aside>
+    </section>
+
+    <section id="about" class="section split">
+      <div>
+        <p class="section-kicker">About</p>
+        <h2>AI engineer focused on meaningful language technology.</h2>
+      </div>
+      <div class="section-body">
+        <p>
+          My background combines machine learning engineering, data engineering, and applied NLP. At Monlam AI, I developed RAG and LLM-based solutions for Tibetan text data, maintained the OpenPecha Toolkit, built large-scale text datasets, and improved OCR data quality pipelines.
+        </p>
+        <p>
+          I am currently pursuing an MS in Computer Science at NYU Courant, with coursework in Predictive Analytics, Natural Language Processing, and Machine Learning.
+        </p>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <div class="section-heading">
+        <p class="section-kicker">Experience</p>
+        <h2>Work that connects research, engineering, and real data.</h2>
+      </div>
+
+      <div class="timeline">
+        <article class="timeline-item">
+          <div class="timeline-date">May 2024 — Jul 2025</div>
+          <div class="timeline-content">
+            <h3>Machine Learning Engineer <span>Monlam AI</span></h3>
+            <ul>
+              <li>Developed NLP solutions including RAG and LLM systems tailored for Tibetan text data.</li>
+              <li>Created and maintained the OpenPecha Toolkit, a Python package for Tibetan text corpus workflows.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <div class="timeline-date">May 2023 — May 2024</div>
+          <div class="timeline-content">
+            <h3>Data Engineer <span>Monlam AI</span></h3>
+            <ul>
+              <li>Built a Tibetan monolingual dataset of about 45GB of high-quality text.</li>
+              <li>Designed scalable machine translation alignment pipelines and OCR quality classifiers.</li>
+              <li>Filtered more than 90% of noisy image-line pairs to improve data quality.</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-heading">
+        <p class="section-kicker">Projects</p>
+        <h2>Selected projects</h2>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card featured">
+          <div class="project-topline">
+            <span>Ranking · ML</span>
+            <a href="https://github.com/tenzin3" target="_blank" rel="noreferrer">Code ↗</a>
+          </div>
+          <h3>NBA Draft Ranking Prediction</h3>
+          <p>
+            Built a data-driven NBA draft ranking framework using historical collegiate performance data. Implemented LambdaMART to model season-wise ranking context and achieved strong pairwise accuracy and rank correlation.
+          </p>
+        </article>
+
+        <article class="project-card">
+          <div class="project-topline">
+            <span>RAG · NLP</span>
+            <a href="https://github.com/tenzin3" target="_blank" rel="noreferrer">Code ↗</a>
+          </div>
+          <h3>Dalai Lama Chatbot</h3>
+          <p>
+            Developed a full chatbot interface that answers questions using vectorized contexts from the Dalai Lama’s books. Fine-tuned Alibaba-NLP/gte-large-en-v1.5 embeddings to improve retrieval hit ratio.
+          </p>
+        </article>
+
+        <article class="project-card">
+          <div class="project-topline">
+            <span>Python · Open Source</span>
+            <a href="https://github.com/tenzin3" target="_blank" rel="noreferrer">Code ↗</a>
+          </div>
+          <h3>OpenPecha Toolkit</h3>
+          <p>
+            Created a Python toolkit to parse and serialize translation and commentary alignment data from Google Docs, supporting publication workflows for pecha.org.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="section-heading">
+        <p class="section-kicker">Skills</p>
+        <h2>Technical stack</h2>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3>Languages</h3>
+          <p>Python, SQL, C++</p>
+        </div>
+        <div class="skill-card">
+          <h3>Machine Learning</h3>
+          <p>PyTorch, TensorFlow, Scikit-learn, Deep Learning, Clustering, NLP</p>
+        </div>
+        <div class="skill-card">
+          <h3>Data</h3>
+          <p>Pandas, NumPy, SciPy, ETL Pipelines, Feature Engineering, Time-Series Analysis</p>
+        </div>
+        <div class="skill-card">
+          <h3>Tools</h3>
+          <p>Hugging Face Hub, Gradio, Flask, Docker, Git, Google Colab</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section education">
+      <div class="section-heading">
+        <p class="section-kicker">Education</p>
+        <h2>Academic background</h2>
+      </div>
+
+      <div class="education-list">
+        <article>
+          <h3>New York University, Courant</h3>
+          <p>MS, Computer Science · Aug 2025 — Present</p>
+          <span>GPA: 3.778/4</span>
+        </article>
+        <article>
+          <h3>Vellore Institute of Technology, Bhopal</h3>
+          <p>BTech, Computer Science Engineering · Sept 2018 — Dec 2022</p>
+          <span>CGPA: 8.7/10 · WES GPA: 3.89/4</span>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="contact-card">
+        <p class="section-kicker">Contact</p>
+        <h2>Let’s build something useful.</h2>
+        <p>
+          I’m open to AI, NLP, data engineering, and research-focused opportunities.
+        </p>
+        <div class="contact-actions">
+          <a class="button primary" href="mailto:tt3124@nyu.edu">tt3124@nyu.edu</a>
+          <a class="button secondary" href="https://github.com/tenzin3" target="_blank" rel="noreferrer">GitHub</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Tenzin Tsundue. Built with HTML, CSS, and JavaScript.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
