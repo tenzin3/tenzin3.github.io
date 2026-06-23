@@ -366,11 +366,22 @@ code {
 .timeline-content h3 {
   font-size: 1.35rem;
   margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
 }
 
 .timeline-content h3 span {
   color: var(--muted);
   font-weight: 600;
+}
+
+.timeline-content h3 a {
+  color: var(--cyan);
+  font-size: 0.85rem;
+  font-weight: 700;
+  margin-left: auto;
+  font-family: "JetBrains Mono", monospace;
 }
 
 .timeline-content ul {
